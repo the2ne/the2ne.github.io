@@ -1,4 +1,4 @@
-# olivier.fredon.com
+# olivierfredon.com
 
 Parce qu'il est grand temps que je mette à jour mon site.
 
@@ -13,4 +13,4 @@ Ensuite, l'objectif final serait de refaire un blog ([souvenir](http://www.the2n
 
 ___
 
-*TLDR : si c'est tout pété c'est normal, le chantier et l'apprentissage sont en cours.*
+*TL;DR : si c'est tout pété c'est normal, le chantier et l'apprentissage sont en cours.*
