@@ -1,7 +1,28 @@
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: $white;
+    font-size: 1em;
+}
+
+.title {
+    @include _background-opacity($black);
+    display: inline-block;
+    font-size: $fontSize * 3;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 0 .15em;
+    padding-right: .25em;
 }
 
 .baseline {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-family: $fontFamilyAlternative;
+    font-size: ($fontSize + .063); /* equ 17px */
+    font-weight: normal;
+    margin: 0;
+}
+
+// Eye candy
+
+.title:hover {
+    color: $black;
+    @include _background-opacity($white);
 }
