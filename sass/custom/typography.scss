@@ -21,8 +21,7 @@ html {
 }
 
 // Eye candy
-
+.blink,
 .title:hover {
-    color: $black;
-    @include _background-opacity($white);
+    @include _blink();
 }

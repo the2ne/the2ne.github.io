@@ -46,7 +46,8 @@ html,
 
     .title,
     .baseline {
-        padding-left: 10%;
+        margin-left: -10%;
+        padding-left: 20%;
     }
 
     @include _origin();
@@ -79,6 +80,18 @@ html,
 }
 
 
+// Crédits
+
+.credits {
+    margin: 1em auto;
+    text-align: center;
+
+    .featured {
+        padding-left: 0;
+    }
+}
+
+
 // Liens
 
 a {
@@ -86,10 +99,16 @@ a {
   cursor: pointer;
 }
 
-a:focus,
-a:hover,
-a:active {
+a:hover {
+  color: $white;
+}
+
+a:focus {
   color: $dark;
+}
+
+a:active {
+  color: $black;
 }
 
 a:link img,

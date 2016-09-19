@@ -48,3 +48,25 @@
     -o-transform: rotate($deg);
     transform: rotate($deg);
 }
+
+/// eyeCandy
+@mixin _blink($primaryColor: $white, $secondaryColor: $black, $duration: .1s, $count: infinite, $direction: normal) {
+
+    @keyframes blink {
+         from {
+             color: $primaryColor;
+             @include _background-opacity($secondaryColor);
+         }
+         50% {
+             color: $secondaryColor;
+             @include _background-opacity($primaryColor);
+
+         }
+    }
+
+    -webkit-animation: blink $duration $count $direction;
+       -moz-animation: blink $duration $count $direction;
+        -ms-animation: blink $duration $count $direction;
+         -o-animation: blink $duration $count $direction;
+            animation: blink $duration $count $direction;
+}
