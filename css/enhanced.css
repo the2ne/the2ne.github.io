@@ -1,0 +1,15 @@
+/* Background */
+.site {
+  background-image: url(../images/bg-large.jpg);
+}
+.site.gradius {
+  background-image: url(../images/bg-42-large.jpg);
+}
+
+/* Headlines */
+.title {
+    font-size: $fontSize * 3;
+}
+.baseline {
+    font-size: ($fontSize + .063); /* equ 17px */
+}

@@ -6,7 +6,7 @@ html {
 .title {
     @include _background-opacity($black);
     display: inline-block;
-    font-size: $fontSize * 3;
+    font-size: $fontSize * 1.5;
     font-style: italic;
     font-weight: bold;
     margin: 0 0 .15em;
@@ -15,9 +15,10 @@ html {
 
 .baseline {
     font-family: $fontFamilyAlternative;
-    font-size: ($fontSize + .063); /* equ 17px */
+    font-size: $fontSize;
     font-weight: normal;
     margin: 0;
+    white-space: nowrap;
 }
 
 // Eye candy
