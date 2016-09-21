@@ -73,7 +73,7 @@ html,
         margin-left: .5em;
     }
 
-    img {
+    .svg {
         width: $fontSize * 1.5;
         height: 100%;
     }
@@ -87,6 +87,7 @@ html,
     text-align: center;
 
     .featured {
+        list-style-type: none;
         padding-left: 0;
     }
 }
@@ -115,4 +116,9 @@ a:link img,
 a:visited img,
 img {
   border-style: none;
+}
+
+.title a {
+    color: $white;
+    text-decoration: none;
 }
