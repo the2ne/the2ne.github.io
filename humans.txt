@@ -17,7 +17,7 @@
 # TEAM
 
     OneManTeam: Olivier Fredon
-    Site: http://olivierfredon.com
+    Site: http://www.olivierfredon.com
     Twitter: @the2ne
     Location: Dirty South, France
 
