@@ -1,16 +1,28 @@
-# olivierfredon.com
+# Le bac à sable
 
-Parce qu'il est grand temps que je mette à jour mon site.
+Ce repo utilisant l'hébergement gracieusement proposé par [GitHub](https://pages.github.com/) me servira principalement d'exploration et d'expérimentation.
 
-Pour essayer de faire ça bien, je me fixe une petite feuille de route et ces notes serviront de rappel.
+## Au premier jour
 
-Si dans un an rien n'a bougé, c'est vraiment que je suis une feignase.
+Il y a la découverte et l'apprentissage.
 
-Dans un premier temps, le but est d'héberger une simple page pas trop moche avec [GitHub Pages](https://pages.github.com/) en faisant tout à l'ancienne.
-Ensuite, l'objectif final serait de refaire un blog ([souvenir](http://www.the2ne.com/blog)) avec [Jekyll](http://jekyllrb.com/) avec un vrai hébergement histoire de ne pas subir les limitations des GitHub Pages.
+La première étape sera donc de mettre en place quelques pages qui serviront de substitu à une présence en ligne bien trop vieille et donc encombrante, voire gênante ([même pas peur](http://www.the2ne.com)).
 
-> On va bien finir par finir.
+Pour essayer de faire ça bien, je me fixe une petite feuille de route et ces notes serviront de rappel, si besoin.
+Une page simple puisque : sans CMS, sans Framework et sans contenu. Entiérement codée ~~avec la bite et le couteau~~ à la main, mais qui respecte bon nombre de critères de qualité web ([bonjour Elie](http://qualite-web-lelivre.com/)).
 
-___
+Pour les plus curieux, quelques références dissimulées ici et là permettront peut-être de créer une cohérence dans ce désert de contenu.
 
-*TL;DR : si c'est tout pété c'est normal, le chantier et l'apprentissage sont en cours.*
+Le tout est visible sur un nouveau domaine qui porte bien mon nom et qui remplacera progressivement *the2ne.com* : [Olivier Fredon](http://www.olivierfredon.com).
+
+## Mais dis donc, c'est super mon grand
+
+Oui je sais, ça vous fait un belle jambe (en mousse). C'est peut-être un détail pour vous, mais...
+
+En fait, il y a tout de même un objectif derrière tout ça. Mettre en oeuvre un nouveau blog sur lequel je pourrai vous parler de design, d'escalade, d'UX, de motocyclette, de dev front-end... mais cette fois avec avec le générateur de site/blog statique si tendance : [Jekyll](http://jekyllrb.com/), voire avec [Hugo](https://gohugo.io/) pour combler le hipster qui sommeille en moi.
+
+Bref, c'est une autre histoire qui reste à écrire et qui aura surement sa place dans un repo dédié et avec un vrai hébergement afin de ne pas subir les limitations des GitHub Pages (pas de .htaccess, SRSLY?).
+
+> To be continued...
+
+![Au boulot !](http://67.media.tumblr.com/tumblr_m9fsraQt2a1r4zr2vo1_500.gif "Au boulot !")
