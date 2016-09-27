@@ -153,8 +153,7 @@ AddDefaultCharset utf-8
 # | Remove index.html                                                  |
 # ----------------------------------------------------------------------
 
-RewriteCond %{THE_REQUEST} \ /(.+/)?index(\.html)?(\?.*)?\  [NC]
-RewriteRule ^(.+/)?index(\.html)?$ /%1 [R=301,L]
+RewriteRule ^(.+/)?index\.html(.*)$ %1/%2 [R=301,L]
 
 # ----------------------------------------------------------------------
 # | Redirect from domain without dash                                  |
